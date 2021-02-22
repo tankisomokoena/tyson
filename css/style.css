@@ -1,0 +1,95 @@
+			body{
+				margin: auto;
+				overflow: auto;
+				background-image: url("../img/forest.jpg");
+				background-size: cover;
+			}
+			
+			.container{
+				position: relative;
+				top: 2em;
+				left: 1em;
+			}
+			
+			.container a{
+				border: 2px solid rgba(127,41,99,0.7);
+				background-color: rgba(10,50,70,0.8);
+				color: white;
+				padding: 14px 25px;
+				box-shadow: 0 7px 3px gray;
+				position: relative;
+				border-radius: 10px;
+				font-family: "Lucida Console", "Courier New", monospace;
+				text-decoration: none;			
+			}
+			
+			
+			.container a:hover{
+				background-color: rgba(20,50,100,0.7);
+				color: red;
+			}
+			
+			.container a:active{
+				top: 15px;
+				box-shadow: none;
+				position: relative;
+				color: rgba(35,180,15,0.8);
+			}
+			
+			.container .login-info{
+				position: relative;
+				width: 40%;
+				border: 2px solid black;
+				margin: auto;
+				background-color: #c1c1c1;
+				opacity: 0.8;
+				box-sizing: border-box;
+				overflow: hidden;
+				height: 30em;
+				font-family: "Brush Script MT","Lucida Handwriting",Cursive;
+			}
+			
+			.container .login-info h2{
+				color: #fa8072;
+				display: block;
+				margin: auto;
+				text-align: center;
+			}
+			
+			.container .login-info img{
+				width: 30%;
+				margin: auto;
+				height: 130px;
+				display: block;
+				border-radius: 80px;
+			}
+			
+			.container .login-info .login-details{
+				position: relative;
+				display: block;
+				margin: auto;
+				clear: right;
+				text-align: center;
+				margin: 5px;
+			}
+			
+			.container .login-info .btnLogin{
+				display: block;
+				margin: auto;
+				text-align: center;
+			}
+			
+			.container .login-info .btnLogin a{
+				top:1em;
+				background-color: rgba(35,180,15,0.8);
+			}
+			
+			.login-details label{
+				display: block;
+				font-family: none;
+				
+			}
+			
+			.login-details input{
+				text-align: center;
+			}
