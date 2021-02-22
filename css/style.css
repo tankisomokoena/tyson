@@ -1,3 +1,15 @@
+			@media screen and (max-width: 649px){
+				body{
+				margin: auto;
+				overflow: auto;
+				background-image: url("../img/forest.jpg");
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+				
+			}
+			
+			@media screen and (min-width: 650px) {
 			body{
 				margin: auto;
 				overflow: auto;
@@ -92,4 +104,6 @@
 			
 			.login-details input{
 				text-align: center;
+			}
+			
 			}
