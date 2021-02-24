@@ -20,7 +20,7 @@
 				position: relative;
 				border-radius: 10px;
 				font-family: "Lucida Console", "Courier New", monospace;
-				text-decoration: none;			
+				text-decoration: none;
 			}
 			
 			
@@ -96,4 +96,45 @@
 			
 			.login-details input{
 				text-align: center;
+				background-size: 1.2em;
+				transition: width 2s;
+				border-radius: 20px;
 			}
+			
+			.login-details input:hover{
+				width: 15em;
+				height: 1.5em;
+				box-shadow: 15px;
+				background-color: rgba(245, 220, 250, 0.7);
+			}
+			
+			.login-details input:focus{
+				width: 45%;
+				height: 1.5em;
+				box-shadow: 15px;
+				background-color: rgba(200, 255, 200, 0.7);
+			}
+			
+			.label-login p{
+				display: block;
+				position: relative;
+				text-align: center;
+				font-size: small;
+				text-decoration: underline;
+				color: rgba(255,30,30,0.7);
+				top: 2em;
+				animation-name: lblLogin;
+				animation-duration: 0.7s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+			}
+			
+			@keyframes lblLogin{
+				from{
+					color: rgba(255,30,30,0.7);
+				}
+				to{
+					color: rgba(255,30,30,0.1);
+				}
+			}
+			
